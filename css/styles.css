@@ -21,6 +21,8 @@ ul {
 /* логотип */
 .logo {
   color: var(--accent);
+
+  font-family: Raleway, sans-serif;
 }
 
 .logo .part {

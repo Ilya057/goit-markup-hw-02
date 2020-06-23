@@ -15,6 +15,9 @@ body {
 
   font-family: Roboto, sans-serif;
 }
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
@@ -23,12 +26,23 @@ ul {
   color: var(--accent);
 
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .logo .part {
   color: #000000;
 }
 /* навигация */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .site-nav .link {
   color: var(--secondary-text-color);
 }
@@ -44,6 +58,13 @@ ul {
 .link.current:focus {
   color: #000000;
 }
+.contact {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+}
 .contact.info {
   color: var(--primary-text-color);
 }
@@ -51,13 +72,34 @@ ul {
 .contact.info:focus {
   color: var(--accent);
 }
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6;
+  /* or 162% */
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 
-.main-button {
+.hero .main-button {
   color: var(--white);
   background-color: var(--accent);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.06em;
 }
 .button {
   color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:hover {
@@ -66,13 +108,96 @@ ul {
 }
 .section-title {
   color: var(--secondary-text-color);
-}
 
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+.section-team {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-description {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
 .social .link:hover,
 .social .link:focus {
   color: var(--accent);
 }
+.client-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .client-list .client:hover,
 .client-list .client:focus {
   color: var(--accent);
+}
+.address .contact-info {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact-info:hover,
+.contact-info:focus {
+  color: var(--accent);
+}
+.example-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.example-text {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+}
+.example .inner-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  /* or 156% */
+  letter-spacing: 0.03em;
 }

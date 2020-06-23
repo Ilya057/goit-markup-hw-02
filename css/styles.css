@@ -114,6 +114,15 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
+.section-name {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .section-text {
   font-weight: 400;
   font-size: 14px;

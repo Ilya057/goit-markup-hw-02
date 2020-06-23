@@ -151,7 +151,22 @@ ul {
 .social .link:focus {
   color: var(--accent);
 }
-.client-title {
+.features-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.section .client-title {
   color: var(--secondary-text-color);
 
   font-weight: 700;
